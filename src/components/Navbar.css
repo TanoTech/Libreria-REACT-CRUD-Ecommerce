@@ -1,0 +1,19 @@
+
+.navbar {
+    background-color: #800000 !important;
+} 
+
+.nav-link {
+    color: #fff !important;
+}
+
+button {
+    color: white!important;
+    border: 2px solid white!important;
+    padding: 1.5rem!important;
+    &:hover {
+        background-color: #400303!important;
+    }
+}
+
+
