@@ -14,8 +14,7 @@ const DisplayBooks = ({ searchQuery }) => {
 
     const filterBooks = (genre) => {
         return searchQuery
-            ? genre.filter(libro =>
-                  libro.title.toLowerCase().includes(searchQuery.toLowerCase()))
+            ? genre.filter(libro => libro.title.toLowerCase().includes(searchQuery.toLowerCase()))
             : genre;
     };
 
