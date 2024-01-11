@@ -37,7 +37,7 @@ class App extends React.Component {
             <Route path="/scifi" element={<ScifiBook searchQuery={this.state.searchQuery} />} />
           </Routes>
           <Footer />
-        </div>d
+        </div>
       </Router>
     );
   }
